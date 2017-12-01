@@ -19,7 +19,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="N7t-jA-hp7">
-                                <rect key="frame" x="141.5" y="318" width="91" height="30"/>
+                                <rect key="frame" x="142" y="318" width="91" height="30"/>
                                 <color key="backgroundColor" red="1" green="0.59813399280575541" blue="0.52765287769784175" alpha="1" colorSpace="calibratedRGB"/>
                                 <state key="normal" title="The Button ))">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -28,11 +28,20 @@
                                     <action selector="buttonClicked:" destination="BYZ-38-t0r" eventType="touchUpInside" id="uFP-07-xfY"/>
                                 </connections>
                             </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="My new label in a new branch" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="JA2-Ju-CLa">
+                                <rect key="frame" x="75" y="170.5" width="225" height="20.5"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstItem="N7t-jA-hp7" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="LzV-AO-wLl"/>
+                            <constraint firstItem="JA2-Ju-CLa" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Xcp-sF-QMi"/>
                             <constraint firstItem="N7t-jA-hp7" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="mwb-LR-eKd"/>
+                            <constraint firstItem="JA2-Ju-CLa" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="75" id="sGT-D7-JNm"/>
+                            <constraint firstItem="N7t-jA-hp7" firstAttribute="top" secondItem="JA2-Ju-CLa" secondAttribute="bottom" constant="127" id="yAk-JO-Hxr"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
